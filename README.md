@@ -8,17 +8,23 @@ hands-on, with governance as a design principle.
 
 **[zenonum](https://zenonum.com)** is an AI-agent platform that guides
 non-technical founders through Design Thinking and Lean Startup, from idea
-to working product. Built with an agentic development process I designed
-and governed: 24 specialised agents, 3,000 automated tests, about 116 hours
-of my own hands-on time over five months. Status: closed beta, 10 external
-testers on their own projects.
+to working product. It runs 24 product agents and was built by an
+autonomous eight-role development loop that I designed and governed.
+About 116 hours of my own hands-on time, alongside a full-time role.
+Status: closed beta, 10 external testers on their own projects.
+
+**[zenonum-governance](https://github.com/PTurczynowicz/zenonum-governance)**
+is the public record of how it is governed: roles, permissions, separation
+of duties, a decision register and assurance. Each item is labelled
+operating, specified or horizon.
 
 ## Principles I build by
 
-- No agent approves its own work.
-- Every decision and error leaves a trace in documentation, not in chat.
-- Permissions are separated between roles and environments; deployment
-  fails closed, with rollback.
+- The role that proposes a change does not accept it.
+- Every material decision and defect leaves a trace in documentation,
+  not in chat.
+- Permissions are separated between roles and environments; delivery is
+  fail-closed when state is uncertain, with rollback.
 - Humans decide where judgment matters.
 
 ## Background
